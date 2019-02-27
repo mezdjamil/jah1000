@@ -1,6 +1,6 @@
 <?php
-require('model.php');
+require_once('model.php');
 
 $posts = getPosts();
 
-require('indexView.php');
+require_once('indexView.php');
