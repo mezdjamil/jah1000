@@ -31,7 +31,7 @@ while(!feof($fichier)){
     
     echo "$ligne<hr>";
    
-    $ligne = fgets($fichier,100);
+    $ligne = fgets($fichier,400);
 }
 
 fclose($fichier);
