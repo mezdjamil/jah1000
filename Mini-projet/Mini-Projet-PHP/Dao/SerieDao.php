@@ -95,4 +95,40 @@ class SerieDao extends BaseDao {
      }
 
 
+    //  public function affichageSerieEpisode() {
+
+    //     $requête = 'SELECT serie.CODE_SERIE, NOM_DE_L_EPISODE, NOM_DE_LA_SERIE, NUMERO_DE_LA_SAISON
+    //                 FROM episode INNER JOIN serie
+    //                 ON (serie.CODE_SERIE = episode.CODE_SERIE)
+    //                 WHERE(serie.CODE_SERIE)';
+
+
+        
+
+    //  }
+
+
+    // public function recupererListe() {
+
+    //     $requete = 'SELECT * FROM episode INNER JOIN serie
+    //                     ON (serie.CODE_SERIE = episode.CODE_SERIE)
+    //                     WHERE(serie.CODE_SERIE)';
+    
+ 
+    //     $resultat = $this->database->query($requete);
+ 
+    //     if ($this->testerErreur($resultat)) {
+    //         $series = [];
+    //         while ($ligne = $resultat->fetch(PDO::FETCH_OBJ)) {
+    //             $serie = new Serie(intval($ligne->CODE_SERIE),
+    //                                       $ligne->NOM_DE_L_EPISODE,
+    //                                       $ligne->NOM_DE_LA_SERIE,
+    //                                intval($ligne->NUMERO_DE_LA_SAISON) );
+                                             
+    //              $series[] = $serie;
+    //         }
+    //     }
+    //              return $series;
+
+
 }
