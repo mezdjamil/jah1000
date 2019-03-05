@@ -24,7 +24,7 @@ try {
                     <th>Supprimer</th>
                 
                 </th>";
-
+// asort($series);
 foreach ($series as $serie) {
 
      $model .= "<tr>

@@ -76,7 +76,7 @@ class SerieDao extends BaseDao {
 
     public function recupererListe() {
 
-        $requete = 'SELECT * FROM serie';
+        $requete = 'SELECT * FROM serie ORDER BY NOM_DE_LA_SERIE';
  
         $resultat = $this->database->query($requete);
  
